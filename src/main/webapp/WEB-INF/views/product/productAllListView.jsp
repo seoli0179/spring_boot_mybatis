@@ -27,7 +27,7 @@
 				<td><c:out value="${prd.prdPrice}" /></td>
 				<td><c:out value="${prd.prdCompany}" /></td>
 				<td><c:out value="${prd.prdStock}" /></td>
-				<td><img src="<c:url value='/images/${prd.prdNo}.png' />"
+				<td><img src="<c:url value='/images/${prd.prdNo}.PNG' />"
 					style="width: 30px; height: 30px;"></td>
 			</tr>
 		</c:forEach>

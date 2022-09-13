@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.spring_boot_mybatis.project"})
 @MapperScan(basePackages = {"com.spring_boot_mybatis.project"})
 public class SpringBootMybatisApplication {
 
